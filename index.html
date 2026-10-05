@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced FAQ Accordion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div>
+                <span class="badge">❓ FAQ CENTER</span>
+
+                <h1>Frequently Asked Questions</h1>
+
+                <p>
+                    Find quick answers to your questions.
+                    Search below to get started.
+                </p>
+            </div>
+
+            <!-- Dark Mode -->
+            <button id="themeBtn" class="theme-btn">
+                🌙
+            </button>
+
+        </header>
+
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <span>🔍</span>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search your question..."
+            >
+
+            <button id="clearSearch">✖</button>
+
+        </div>
+
+
+        <!-- Controls -->
+        <div class="controls">
+
+            <span id="resultCount">
+                5 questions
+            </span>
+
+            <div class="control-buttons">
+
+                <button id="openAll">
+                    📂 Open All
+                </button>
+
+                <button id="closeAll">
+                    📁 Close All
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- FAQ List -->
+        <div class="faq-list">
+
+
+            <!-- FAQ 1 -->
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>
+                        What is this service?
+                    </span>
+
+                    <span class="arrow">
+                        ⌄
+                    </span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+                        Our service provides simple and reliable
+                        solutions to help you manage your tasks
+                        and projects more efficiently.
+                    </p>
+
+
+                    <div class="answer-footer">
+
+                        <span>
+                            Was this answer helpful?
+                        </span>
+
+                        <button class="yes-btn">
+                            👍 Yes
+                        </button>
+
+                        <button class="no-btn">
+                            👎 No
+                        </button>
+
+                        <button class="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>
+                        Is the service free to use?
+                    </span>
+
+                    <span class="arrow">
+                        ⌄
+                    </span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes, you can start using the basic features
+                        for free. Premium features may be available
+                        depending on your requirements.
+                    </p>
+
+
+                    <div class="answer-footer">
+
+                        <span>
+                            Was this answer helpful?
+                        </span>
+
+                        <button class="yes-btn">
+                            👍 Yes
+                        </button>
+
+                        <button class="no-btn">
+                            👎 No
+                        </button>
+
+                        <button class="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>
+                        Can I use it on my mobile phone?
+                    </span>
+
+                    <span class="arrow">
+                        ⌄
+                    </span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+                        Absolutely. The website is fully responsive
+                        and works smoothly on smartphones, tablets
+                        and desktop computers.
+                    </p>
+
+
+                    <div class="answer-footer">
+
+                        <span>
+                            Was this answer helpful?
+                        </span>
+
+                        <button class="yes-btn">
+                            👍 Yes
+                        </button>
+
+                        <button class="no-btn">
+                            👎 No
+                        </button>
+
+                        <button class="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>
+                        How can I contact support?
+                    </span>
+
+                    <span class="arrow">
+                        ⌄
+                    </span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+                        You can contact our support team through
+                        the contact form or by sending us an email.
+                    </p>
+
+
+                    <div class="answer-footer">
+
+                        <span>
+                            Was this answer helpful?
+                        </span>
+
+                        <button class="yes-btn">
+                            👍 Yes
+                        </button>
+
+                        <button class="no-btn">
+                            👎 No
+                        </button>
+
+                        <button class="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 5 -->
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>
+                        Is my information secure?
+                    </span>
+
+                    <span class="arrow">
+                        ⌄
+                    </span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes. We follow standard security practices
+                        to protect your information and keep your
+                        data safe.
+                    </p>
+
+
+                    <div class="answer-footer">
+
+                        <span>
+                            Was this answer helpful?
+                        </span>
+
+                        <button class="yes-btn">
+                            👍 Yes
+                        </button>
+
+                        <button class="no-btn">
+                            👎 No
+                        </button>
+
+                        <button class="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+<!-- FAQ 6 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>How do I create an account?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Click on the Sign Up button, enter your basic
+            information, create a password, and submit the form.
+            Your account will be created instantly.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 7 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Can I change my account information?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. You can update your profile information from
+            your account settings whenever you want.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 8 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>What should I do if I forget my password?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Click on the Forgot Password option on the login
+            page and follow the instructions to reset your password.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 9 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Do you provide customer support?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. Our support team is available to help you with
+            technical issues, account problems, and general questions.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 10 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>How quickly will I receive a response?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Most support requests receive a response within
+            one business day.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 11 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Can I use the service on multiple devices?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. You can access your account from your phone,
+            tablet, laptop, or desktop computer.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 12 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Can I cancel my subscription?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. You can cancel your subscription from your
+            account settings. Your access will continue according
+            to the applicable subscription terms.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 13 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Is my payment information secure?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. Payment information is handled using secure
+            payment processing methods designed to protect
+            your financial information.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 14 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Can I request a new feature?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            Yes. We welcome suggestions and feature requests.
+            You can contact our support team and share your idea.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FAQ 15 -->
+<div class="faq-item">
+
+    <button class="faq-question">
+        <span>Where can I report a problem?</span>
+        <span class="arrow">⌄</span>
+    </button>
+
+    <div class="faq-answer">
+
+        <p>
+            You can report a problem through our support section.
+            Please include a description of the issue so our team
+            can investigate it quickly.
+        </p>
+
+        <div class="answer-footer">
+
+            <span>Was this answer helpful?</span>
+
+            <button class="yes-btn">👍 Yes</button>
+            <button class="no-btn">👎 No</button>
+            <button class="copy-btn">📋 Copy</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+
+        <!-- No Result -->
+        <div id="noResult">
+            😕 No FAQ found.
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Still have questions?
+                <a href="#">Contact Support</a>
+            </p>
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
